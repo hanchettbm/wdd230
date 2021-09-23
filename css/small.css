@@ -5,7 +5,6 @@ body {
 header, main, footer {
     max-width: 760px;
     margin: 0 auto;
-    border-radius: 15px;
 }
 
 header {
@@ -13,19 +12,14 @@ header {
     padding: 1rem;
 }
 
-header picture {
-    float: right;
-
-}
 
 header picture img {
     width: 200px;
     height: auto;
-    filter: drop-shadow(0 0.9rem 0.8rem rgba(0, 0, 0, 0.568));
 }
 
 h1 {
-    font-size: 2.8rem;
+    font-size: 1.8rem;
     color: white;
     text-align: center;
     font-family: Georgia;
@@ -34,6 +28,7 @@ h1 {
 h2 {
     margin-bottom: 0px;
     font-family: Tahoma;
+    font-size: 1.5rem;
 }
 
 ul {
@@ -49,6 +44,7 @@ footer {
 }
 
 .updated {
+    font-family: 'Architects Daughter', cursive;
     font-size: 11pt;
     color: #11023a;
 }
