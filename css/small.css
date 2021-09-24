@@ -10,6 +10,7 @@ header, main, footer {
 header {
     background-color: rgb(67, 138, 138);
     padding: 1rem;
+    text-align: center;
 }
 
 
@@ -23,12 +24,14 @@ h1 {
     color: white;
     text-align: center;
     font-family: Georgia;
+
 }
 
 h2 {
     margin-bottom: 0px;
     font-family: Tahoma;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 ul {
@@ -49,6 +52,6 @@ footer {
     color: #11023a;
 }
 
-a {
+footer a {
     color: white;
 }
