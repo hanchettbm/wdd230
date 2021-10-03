@@ -1,9 +1,107 @@
+header, main, footer {
+    max-width: 950px;
+    margin: 0 auto;
+}
+img{
+	width: 260px;
+    height: auto;
+}
+
+header {
+    background-color: #8cdffc;
+    padding: 1rem;
+    text-align: center;
+	font-family: Georgia;
+	border-radius: 6px;
+	margin-top: 10px;
+}
+h1{
+	font-family: Georgia;
+	font-size: 1.8rem;
+	background-color: #8cdffc;
+	padding: 0.5rem;
+}
+h2{
+	font-family: Georgia;
+	font-size: 1.5rem;
+	background-color: #cbdbe1;
+	padding: 0.5rem;
+}
+nav {
+	max-width: 760px;
+	background-color: #3c687c;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+	margin: 0 auto;
+	font-family: Georgia;
+	font-size: 30px;
+
+}
 nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
+nav ul li a {
+	display: block;
+	color: #fff;
+	font-family: Georgia;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+	background: linear-gradient(90deg, transparent, #eebc43, transparent) top / var(--d, 0) 10px no-repeat;
+    transition: 0.5s;
+}
+nav a:hover {
+	--d: 75%;
+}
 
-nav ul { display: flex; }
-nav ul li { flex: 1 1 100%; }
+p {
+	font-family: 'Architects Daughter';
+	margin-left: 3px;
+	font-size: 16px;
+}
+footer {
+    background-color: #8cdffc;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    font-size: 15px;
+}
+
+table {
+	display:inline-flex;
+	border: 1px solid;
+	margin: 5px;
+}
+th {
+	background-color: #cbdbe1;
+	border: 1px solid;
+
+} 
+th p{
+	font-family: Georgia;
+}
+td{
+	border: 1px solid;
+}
+td ul{
+	font-family: 'Architects Daughter';
+}
+.floatLeft { 
+	width: 100%; 
+	float: center; 
+}
+.floatRight {width: 100%; 
+	float: center; 
+}
+.container { 
+	overflow: hidden; 
+}
+ul li{
+	padding: 5px;
+	font-family: 'Architects Daughter';
+}
+

@@ -1,2 +1,22 @@
-nav ul { display: flex; }
-nav ul li { flex: 1 1 100%; } 
+@media only screen and (min-width: 37.5em) {
+	h1 { 
+        font-size: 1.5rem;
+    }
+
+	/* Flex *********************/
+	nav ul { 
+        display: flex; 
+    }
+	nav ul li { 
+        flex: 1 1 100%; 
+    }
+    .floatLeft { width: 50%; 
+        float: left; 
+    }
+    .floatRight {width: 50%; 
+        float: right; 
+    }
+    .container { 
+        overflow: hidden; 
+    }
+}
