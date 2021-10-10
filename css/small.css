@@ -8,7 +8,7 @@ header, main, footer {
 }
 
 header {
-    background-color: rgb(67, 138, 138);
+    background-color: rgb(17, 83, 83);
     padding: 1rem;
     text-align: center;
 }
@@ -38,7 +38,7 @@ ul {
     margin-top: 4px;
 }
 footer {
-    background-color:rgb(67, 138, 138);
+    background-color:rgb(17, 87, 87);;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -49,7 +49,7 @@ footer {
 .updated {
     font-family: 'Architects Daughter', cursive;
     font-size: 11pt;
-    color: #11023a;
+    color: #d0c6eb;
 }
 
 footer a {

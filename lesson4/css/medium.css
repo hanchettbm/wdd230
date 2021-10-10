@@ -1,0 +1,29 @@
+@media only screen and (min-width: 32.5em){
+    header img {
+		width: 100%;
+	}
+    .headings h1 {
+		font-size: 3rem;
+	}
+    .m {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+	}
+    /* Flex *********************/
+	nav ul { 
+        display: flex; 
+    }
+	nav ul li { 
+        flex: 1 1 100%; 
+    }
+    .floatLeft { width: 50%; 
+        float: left; 
+    }
+    .floatRight {width: 50%; 
+        float: right; 
+    }
+    .container { 
+        overflow: hidden; 
+    }
+}

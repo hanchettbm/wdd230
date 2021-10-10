@@ -1,0 +1,103 @@
+body { 
+    font-family: Ubuntu, sans-serif; 
+    padding: 0;
+	margin: 0;
+    font-size: 15px;
+}
+
+header {
+	background-color: #fff;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+    background-color: #8cdffc;
+    text-align: center;
+	font-family: Georgia;
+}
+
+h1{
+	font-family: Georgia;
+	font-size: 1.8rem;
+	background-color: #8cdffc;
+	padding: 0.5rem;
+}
+h2{
+	font-family: Georgia;
+	font-size: 1.5rem;
+	background-color: #cbdbe1;
+	padding: 0.5rem;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+    max-width: 200px;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: forestgreen;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px solid;
+    padding: 15px;
+}
+nav {
+	max-width: 760px;
+	background-color: #3c687c;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+	margin: 0 auto;
+	font-family: Georgia;
+	font-size: 30px;
+
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #fff;
+	font-family: Georgia;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+	background: linear-gradient(90deg, transparent, #eebc43, transparent) top / var(--d, 0) 10px no-repeat;
+    transition: 0.5s;
+}
+nav a:hover {
+	--d: 75%;
+}
+
+p {
+	font-family: 'Architects Daughter';
+	margin-left: 3px;
+	font-size: 16px;
+}
+footer {
+    background-color: #8cdffc;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    font-size: 15px;
+}
