@@ -7,7 +7,7 @@ body {
 
 header {
 	background-color: #fff;
-	padding: 5px 0;
+	padding: 25px 0;
 	display: flex;
 	align-items:center;
 	justify-content:center;
@@ -16,21 +16,9 @@ header {
 	font-family: Georgia;
 }
 
-h1{
-	font-family: Georgia;
-	font-size: 1.8rem;
-	background-color: #8cdffc;
-	padding: 0.5rem;
-}
-h2{
-	font-family: Georgia;
-	font-size: 1.5rem;
-	background-color: #cbdbe1;
-	padding: 0.5rem;
-}
 
 header img {
-	width: 80px;
+	width: 100px;
 	height: auto;
     max-width: 200px;
 }
@@ -44,22 +32,29 @@ header img {
 	font-size: 1.6rem;
 	margin: 0 0 0 17px;
 }
-
-.m {
-	font-style: italic;
-	letter-spacing: 1pt;
-	color: forestgreen;
-	margin-left: 20px;
-	font-size: .9rem;
+h1{
+	font-family: Georgia;
+	font-size: 1.8rem;
+	background-color: #8cdffc;
+	padding: 0.5rem;
 }
+h2{
+	font-family: Georgia;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	text-align: center;
+}
+
 .contentbox {
+	font-family: 'Architects Daughter';
+	background-color: #cccccc;
+	max-width: 1000px;
     display: block;
     margin: 10px auto;
     border: 1px solid;
     padding: 15px;
 }
 nav {
-	max-width: 760px;
 	background-color: #3c687c;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
@@ -68,17 +63,15 @@ nav {
 	font-size: 30px;
 
 }
-nav ul {
-	list-style-type: none;
-	margin: 0;
+.navigation {
+	list-style: none;
 	padding: 0;
-	overflow: hidden;
 }
-nav ul li a {
+.navigation a {
 	display: block;
 	color: #fff;
 	font-family: Georgia;
-	text-align: center;
+	text-align: left;
 	padding: 0.75rem;
 	text-decoration: none;
 	font-size: 0.95rem;
@@ -87,6 +80,15 @@ nav ul li a {
 }
 nav a:hover {
 	--d: 75%;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.responsive li {
+	display: block;
 }
 
 p {
