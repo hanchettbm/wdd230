@@ -1,0 +1,23 @@
+@media only screen and (min-width: 32.5em){
+    header img {
+		width: 100%;
+	}
+    .headings h1 {
+		font-size: 3rem;
+	}
+
+    /* Flex *********************/
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+}
