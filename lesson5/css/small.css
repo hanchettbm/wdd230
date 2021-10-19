@@ -103,3 +103,35 @@ footer {
     text-align: center;
     font-size: 15px;
 }
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+.contentbox.forecast {
+	background-color: transparent;
+	border: none;
+}
+.contentbox.forecast.table{
+	display: flex;
+	justify-content: center;
+	border: none;
+}
+.col-head,th {
+	font-weight: 700;
+	font-size: 1rem;
+	background-color: #8cdffc;
+}
+
+table,th,td {
+	border: thin solid #333;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+td {
+	background-color: white;
+	font-size: 0.8rem;
+	text-align: center;
+}
