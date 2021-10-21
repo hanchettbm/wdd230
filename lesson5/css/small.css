@@ -194,3 +194,24 @@ td {
 	text-align: justify;
 	font-size: 20px;
 }
+
+.contentbox.contact {
+	background: radial-gradient(rgb(238, 238, 238), #3c747c);
+	height: 390px;
+}
+
+.contentbox.contact .map {
+	max-width: 450px;
+	border: solid 1px;
+	float: left;
+	margin: 10px 150px 10px 10px;
+}
+
+.contentbox.contact .info {
+	display: block;
+	padding: 25px;
+	margin: 55px 0px 0px 0px;
+}
+.contentbox.contact .info img{
+	max-width: 30px;
+}
