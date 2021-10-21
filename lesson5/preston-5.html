@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather 4 You</title>
     <meta name="description" content="My Planning Page for the Future Weather Website Project" />
+    <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
@@ -15,8 +16,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <script defer src="js/dates.js"></script>
     <script defer src="js/navigation.js"></script>
+    <script defer src="js/banner.js"></script>
 </head>
 <body>
+    <div id="pancakes">
+        <h2>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</h2>
+     </div>
     <header>
         <img src="images/Weather4You.jpeg" alt="Weather Logo">
         <section class="headings">
@@ -37,9 +42,17 @@
     </nav>
     <main>
         <h2>Preston Idaho</h2>
-        <div class="contentbox">Hero w/ Weather Summary
-        
-        
+        <div class="contentbox hero">
+        <img src="images/hero.jpg" alt="hero">
+        <section class="stats">
+            <h2>Weather Summary</h2>
+            <hr>
+            <p>Currently: <span>Sunny</span></p>
+            <p>High: <span>92°F</span></p>
+            <p>Wind Chill: <span>90°F</span></p>
+            <p>Humidity: <span>70%</span></p>
+            <p>Wind Speed: <span>7 mph</span></p>
+        </section>
         </div>
          <div class="contentbox forecast">
             <h2>5 Day Forecast</h2>
@@ -57,24 +70,32 @@
                     <tbody>
                         <tr>
                             <td>
-                                <img src="images/sun.png" alt="kitten!"><br> 89 °F
-                            </td>
+                                <img src="images/sun.png" alt="forecast"><br> 89°F </td>
                             <td>
-                                <img src="images/sun.png" alt="kitten!"><br> 81 °F </td>
+                                <img src="images/sun.png" alt="forecast"><br> 81°F </td>
                             <td>
-                                <img src="images/sun.png" alt="kitten!"><br> 84 °F </td>
+                                <img src="images/sun.png" alt="forecast"><br> 84°F </td>
                             <td>
-                                <img src="images/sun.png" alt="kitten!"><br> 69 °F
-                            </td>
+                                <img src="images/sun.png" alt="forecast"><br> 69°F </td>
                             <td>
-                                <img src="images/sun.png" alt="kitten!"><br> 79 °F
+                                <img src="images/sun.png" alt="forecast"><br> 79°F
                             </td>  
                         </tr>
                     </tbody>
                 </table>
             </div>
          </div>
-          <div class="contentbox">Article</div>
+          <div class="contentbox article">
+          <img src="images/article.jpg" alt="article">
+            <h2>Article Goes Here</h2>
+            <h3>by Whoever Wrote it</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                is nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                is nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
            <div class="contentbox">Contact Information</div>
     </main>
     <footer>
