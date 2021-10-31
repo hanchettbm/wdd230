@@ -21,13 +21,13 @@
         max-width: 1048px;
     }
 
-    .container picture { 
+    .container img { 
         width: 250px; 
         height: auto; 
         margin: .5rem;
     }
 
     .container picture:hover { 
-        box-shadow: 0 0 50px #333;
+        box-shadow: 0 0 40px #333;
     }
 }

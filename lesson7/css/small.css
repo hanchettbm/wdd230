@@ -217,7 +217,6 @@ td {
 }
 
 .captions {
-	background-color: #fff;
 	text-align: center;
 	font-family: 'Architects Daughter';
 	padding: 8px;
@@ -237,7 +236,7 @@ td {
 	text-align: center;
 }
 
-.container picture { 
+.container img { 
 	width: 250px; 
 	height: auto; 
 	margin: .5rem;

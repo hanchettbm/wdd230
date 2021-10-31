@@ -27,10 +27,4 @@
         grid-template-columns: 1fr 1fr; 
         max-width: 1048px;
     }
-
-    .container img { 
-        width: 250px; 
-        height: auto; 
-        margin: .5rem;
-    }
 }
