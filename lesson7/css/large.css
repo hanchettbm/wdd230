@@ -21,7 +21,7 @@
         max-width: 1048px;
     }
 
-    .container img { 
+    .container picture { 
         width: 250px; 
         height: auto; 
         margin: .5rem;
