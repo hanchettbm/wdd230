@@ -13,4 +13,21 @@
 	nav ul li { 
         flex: 1 1 100%; 
     }
+
+    .container {
+        margin: 1rem auto; 
+        display:grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        max-width: 1048px;
+    }
+
+    .container img { 
+        width: 250px; 
+        height: auto; 
+        margin: .5rem;
+    }
+
+    .container picture:hover { 
+        box-shadow: 0 0 50px #333;
+    }
 }

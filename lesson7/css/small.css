@@ -215,3 +215,39 @@ td {
 .contentbox.contact .info img{
 	max-width: 30px;
 }
+
+.captions {
+	background-color: #fff;
+	text-align: center;
+	font-family: 'Architects Daughter';
+	padding: 8px;
+  }
+
+.container {
+	margin: 1rem auto; 
+	display:grid; 
+	grid-template-columns: 1fr; 
+	max-width: 1048px;
+	align-items: center;
+}
+
+.container picture{
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.container img { 
+	width: 250px; 
+	height: auto; 
+	margin: .5rem;
+}
+.container img[data-src] {
+    filter: blur(0.2em);
+}
+.container img {
+	border: 1px solid #333;
+	padding: 2px;
+	filter: blur(0em);
+	transition: filter 0.5s;
+}
