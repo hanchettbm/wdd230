@@ -15,6 +15,7 @@ main {
     grid-template-columns: 1fr;
 }
 
+/* Header Styling */
 header {
 	border: 1px solid #333;
     background-color: rgb(32, 71, 71);
@@ -41,6 +42,7 @@ section {
     background-color: rgb(235, 235, 235);
 }
 
+/* Section Content */
 section h1 {
     margin-top: 0px;
     background-color: rgb(30, 54, 97);
@@ -59,6 +61,7 @@ img {
     width: 250px;
     margin-top: 10px
 }
+
 a {
     font-size: 1rem;
 }

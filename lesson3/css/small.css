@@ -1,7 +1,9 @@
+/* Header */
 header, main, footer {
     max-width: 950px;
     margin: 0 auto;
 }
+
 img{
 	width: 260px;
     height: auto;
@@ -15,18 +17,22 @@ header {
 	border-radius: 6px;
 	margin-top: 10px;
 }
+
 h1{
 	font-family: Georgia;
 	font-size: 1.8rem;
 	background-color: #8cdffc;
 	padding: 0.5rem;
 }
+
 h2{
 	font-family: Georgia;
 	font-size: 1.5rem;
 	background-color: #cbdbe1;
 	padding: 0.5rem;
 }
+
+/* Navigation Bar */
 nav {
 	max-width: 760px;
 	background-color: #3c687c;
@@ -37,12 +43,14 @@ nav {
 	font-size: 30px;
 
 }
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
+
 nav ul li a {
 	display: block;
 	color: #fff;
@@ -54,6 +62,7 @@ nav ul li a {
 	background: linear-gradient(90deg, transparent, #eebc43, transparent) top / var(--d, 0) 10px no-repeat;
     transition: 0.5s;
 }
+
 nav a:hover {
 	--d: 75%;
 }
@@ -63,6 +72,8 @@ p {
 	margin-left: 3px;
 	font-size: 16px;
 }
+
+/* Footer */
 footer {
     background-color: #8cdffc;
     color: black;
@@ -71,35 +82,45 @@ footer {
     font-size: 15px;
 }
 
+/* Table Details */
 table {
 	display:inline-flex;
 	border: 1px solid;
 	margin: 5px;
 }
+
 th {
 	background-color: #cbdbe1;
 	border: 1px solid;
 
 } 
+
 th p{
 	font-family: Georgia;
 }
+
 td{
 	border: 1px solid;
 }
+
 td ul{
 	font-family: 'Architects Daughter';
 }
+
 .floatLeft { 
 	width: 100%; 
 	float: center; 
 }
-.floatRight {width: 100%; 
+
+.floatRight {
+	width: 100%; 
 	float: center; 
 }
+
 .container { 
 	overflow: hidden; 
 }
+
 ul li{
 	padding: 5px;
 	font-family: 'Architects Daughter';

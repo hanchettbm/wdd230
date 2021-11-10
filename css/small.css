@@ -13,7 +13,6 @@ header {
     text-align: center;
 }
 
-
 header picture img {
     width: 200px;
     height: auto;
@@ -45,7 +44,7 @@ footer {
     font-size: 14pt;
     line-height: 25px;
 }
-
+/* Footer Styles */
 .updated {
     font-family: 'Architects Daughter', cursive;
     font-size: 11pt;
