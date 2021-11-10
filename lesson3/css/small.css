@@ -106,15 +106,14 @@ td{
 td ul{
 	font-family: 'Architects Daughter';
 }
+/* Image alignment */
 
 .floatLeft { 
 	width: 100%; 
-	float: center; 
 }
 
 .floatRight {
 	width: 100%; 
-	float: center; 
 }
 
 .container { 
