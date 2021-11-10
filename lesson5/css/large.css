@@ -16,6 +16,11 @@
         flex: 1 1 100%; 
     }
 
+    nav a:hover {
+        --d: 75%;
+        text-decoration: none;
+    }
+
     /* Hero Banner */
     .contentbox.hero{
         background-color: transparent;

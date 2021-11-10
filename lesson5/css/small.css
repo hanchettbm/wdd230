@@ -98,7 +98,8 @@ nav {
 }
 
 nav a:hover {
-	--d: 75%;
+	text-decoration: underline;
+	text-decoration-color: #eebc43;
 }
 
 .navigation li:first-child {
