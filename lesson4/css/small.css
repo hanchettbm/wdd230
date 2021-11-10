@@ -16,7 +16,6 @@ header {
 	font-family: Georgia;
 }
 
-
 header img {
 	width: 100px;
 	height: auto;
@@ -32,12 +31,14 @@ header img {
 	font-size: 1.6rem;
 	margin: 0 0 0 17px;
 }
+
 h1{
 	font-family: Georgia;
 	font-size: 1.8rem;
 	background-color: #8cdffc;
 	padding: 0.5rem;
 }
+
 h2{
 	font-family: Georgia;
 	font-size: 1.5rem;
@@ -45,6 +46,7 @@ h2{
 	text-align: center;
 }
 
+/* Page content */
 .contentbox {
 	font-family: 'Architects Daughter';
 	background-color: #cccccc;
@@ -54,6 +56,8 @@ h2{
     border: 1px solid;
     padding: 15px;
 }
+
+/* Nav */
 nav {
 	background-color: #3c687c;
 	text-align: center;
@@ -63,10 +67,12 @@ nav {
 	font-size: 30px;
 
 }
+
 .navigation {
 	list-style: none;
 	padding: 0;
 }
+
 .navigation a {
 	display: block;
 	color: #fff;
@@ -78,15 +84,19 @@ nav {
 	background: linear-gradient(90deg, transparent, #eebc43, transparent) top / var(--d, 0) 10px no-repeat;
     transition: 0.5s;
 }
+
 nav a:hover {
 	--d: 75%;
 }
+
 .navigation li:first-child {
 	display: block;
 }
+
 .navigation li {
 	display: none;
 }
+
 .responsive li {
 	display: block;
 }
@@ -96,6 +106,8 @@ p {
 	margin-left: 3px;
 	font-size: 16px;
 }
+
+/* Footer */
 footer {
     background-color: #8cdffc;
     color: black;

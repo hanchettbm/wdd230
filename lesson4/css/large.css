@@ -6,7 +6,7 @@
 		font-size: 3rem;
 	}
     
-    /* Flex *********************/
+    /* Flex */
 	nav ul { 
         display: flex; 
     }
