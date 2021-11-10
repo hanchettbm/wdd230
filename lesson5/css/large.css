@@ -2,14 +2,16 @@
     header img {
 		width: 100%;
 	}
+    
     .headings h1 {
 		font-size: 3rem;
 	}
     
-    /* Flex *********************/
+    /* Flex */
 	nav ul { 
         display: flex; 
     }
+
 	nav ul li { 
         flex: 1 1 100%; 
     }
