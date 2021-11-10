@@ -96,7 +96,7 @@ nav {
 	background: linear-gradient(90deg, transparent, #eebc43, transparent) top / var(--d, 0) 10px no-repeat;
     transition: 0.5s;
 }
-
+/* Hover */
 nav a:hover {
 	text-decoration: underline;
 	text-decoration-color: #eebc43;
