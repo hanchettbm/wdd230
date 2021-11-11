@@ -174,7 +174,7 @@
         margin: .5rem;
     }
 
-    .container picture:hover { 
+    .container figure:hover { 
         box-shadow: 0 0 40px #333;
     }
 }
