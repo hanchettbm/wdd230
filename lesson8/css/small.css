@@ -327,11 +327,9 @@ form label.personal, form label.report, form div {
     color: black;
     font-family: 'Architects Daughter';
     padding-top: 20px;
-    -webkit-appearance: none;
 }
 
 form label.personal input, form label.personal select, form label.report input, form label.report select {
-    -webkit-appearance: none;
     display: block;
     border-radius: 5px;
     padding: 10px;
@@ -393,4 +391,13 @@ form label.personal input:required:valid{
 
 .thanks {
     padding-bottom: 350px;
+}
+
+.comments {
+	display: inline-grid;
+	font-family: 'Architects Daughter';
+}
+
+.comments textarea {
+	margin-top: 5px;
 }

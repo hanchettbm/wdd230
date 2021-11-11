@@ -60,8 +60,9 @@
             
                 <label class="report">Storm Date<input type="date" name="stormDate"></label>
 
-                <label class="report" for="stormChoices">Storm Type</label>
-                    <input list="stormChoices">
+                <label class="report" for="stormChoices">
+                Storm Type
+                    <input list="stormChoices" placeholder="Select Type">
                         <datalist id="stormChoices">
                             <option value="Flash Flood">
                             <option value="Hail">
@@ -69,6 +70,7 @@
                             <option value="Thunderstorm">
                             <option value="Tornado">
                         </datalist>
+                    </label>
 
                 <label class="flexly" for="rating">Storm Rating: &nbsp;&nbsp;&nbsp;
 			    <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
@@ -88,13 +90,15 @@
                     <option value="10">
 		        </datalist>
 
-                <label class="report">Storm Region</label>
+                <label class="report">
+                Storm Region
                     <select name="region">
                         <option value="">Select Region</option>
                         <option value="preston">Preston</option>
                         <option value="sodasprings">Soda Springs</option>
                         <option value="fishhaven">Fish Haven</option>
                     </select>
+                </label>
 
             <div>User in-Danger Level
                 <label class="danger"><input type="radio" name="danger" value="yes">  Yes</label>
@@ -105,7 +109,7 @@
 
         <fieldset>
             <legend>Additional Information or Comments</legend>
-            <label><textarea type="text" rows="5" cols="40" placeholder="Add comments here"></textarea></label>
+            <label class="comments">Comments<textarea type="text" rows="5" cols="40" placeholder="Add comments here"></textarea></label>
         </fieldset>
         <div class="submit">
             <input type="submit" value="Submit Report" class="submitButton">
