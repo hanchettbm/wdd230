@@ -52,7 +52,7 @@
                 <label class="personal">Full Name*<input type="text" name="fullname" pattern="[A-Za-z].{5,}" required></label>
                 <label class="personal">Email<input type="email" name="email" placeholder="stormalert@gweather4you.com"></label>
                 <label class="personal">Phone Number* <input type="tel" name="phone" placeholder="(555) 555-5555" required></label>
-                <label class="personal">Zip Code* <input type="text" inputmode="numeric" pattern="[0-9]5" name="zipcode" required></label>
+                <label class="personal">Zip Code* <input type="text" pattern="[0-9]5" name="zipcode" required></label>
             </fieldset>
 
             <fieldset>
@@ -60,7 +60,7 @@
             
                 <label class="report">Storm Date<input type="date" name="stormDate"></label>
 
-                <label class="report" for="stormChoices">Storm Type
+                <label class="report">Storm Type
                     <input list="stormChoices" placeholder="Select Type">
                         <datalist id="stormChoices">
                             <option value="Flash Flood">
@@ -108,7 +108,7 @@
 
         <fieldset>
             <legend>Additional Information or Comments</legend>
-            <label class="comments">Comments<textarea type="text" rows="5" cols="40" placeholder="Add comments here"></textarea></label>
+            <label class="comments" type="text">Comments<textarea rows="5" cols="40" placeholder="Add comments here"></textarea></label>
         </fieldset>
         <div class="submit">
             <input type="submit" value="Submit Report" class="submitButton">
