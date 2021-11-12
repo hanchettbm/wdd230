@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather 4 You</title>
-    <meta name="description" content="Preston content page" />
+    <meta name="description" content="Preston Page working with images" />
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css" />
@@ -13,9 +13,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script defer src="js/fonts.js"></script>
     <script defer src="js/dates.js"></script>
     <script defer src="js/navigation.js"></script>
     <script defer src="js/banner.js"></script>
+    <script defer src="js/windchill.js"></script>
+    <script defer src="js/visits.js"></script>
 </head>
 <body>
     <div id="pancakes">
@@ -31,26 +35,31 @@
     <nav>
         <ul class="navigation">
             <li><a href="#" class="ham"> &#9776; Menu</a></li>
-            <li><a href="#">Home</a></li>
-            <li class="active"><a href="preston-5.html">Preston</a></li>
+            <li><a href="index.html"> Home</a></li>
+            <li class="active"><a href="preston-6.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
     <main>
         <h2>Preston Idaho</h2>
         <div class="contentbox hero">
-            <img src="images/hero.jpg" alt="hero">
+            <picture>
+                <source media="(max-width: 32.4em)" srcset="images/hero.jpg">
+                <source media="(min-width: 32.5em)" srcset="images/hero.jpg">
+                <source media="(min-width: 60em)" srcset="images/hero.jpg">
+                <img src="images/hero.jpg" alt="hero image">
+            </picture>
             <section class="stats">
                 <h2>Weather Summary</h2>
                 <hr>
                 <p>Currently: <span>Sunny</span></p>
-                <p>High: <span>92°F</span></p>
-                <p>Wind Chill: <span>90°F</span></p>
-                <p>Humidity: <span>70%</span></p>
-                <p>Wind Speed: <span>7 mph</span></p>
+                <p>High: <span id="temp">42</span>°F</p>
+                <p>Wind Chill: <span id="chill"></span></p>
+                <p>Humidity: <span>70%</span>°F</p>
+                <p>Wind Speed: <span id="speed">7</span>mph</p>
             </section>
         </div>
          <div class="contentbox forecast">
@@ -115,6 +124,7 @@
     <footer>
         <div>&copy; Weather 4 You | Attributions | Baden Hanchett</div>
         <div class="date"><span id="currentDate"></span></div>
+        <div class="visits">Days between Visits: <span id="count"></span></div>
     </footer>
 </body>
 </html>

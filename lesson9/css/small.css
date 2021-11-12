@@ -1,0 +1,403 @@
+body { 
+    font-family: Ubuntu, sans-serif; 
+    padding: 0;
+	margin: 0;
+    font-size: 15px;
+}
+
+/* Banner */
+#pancakes{
+	display: none;
+	background-color: #eebc43;
+	padding: 15px;
+}
+
+.pancakes h2 {
+	margin: 0;
+}
+
+/* Header */
+header {
+	background-color: #fff;
+	padding: 25px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+    background-color: #8cdffc;
+    text-align: center;
+	font-family: Georgia;
+}
+
+header img {
+	width: 100px;
+	height: auto;
+    max-width: 200px;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+h1{
+	font-family: Georgia;
+	font-size: 1.8rem;
+	background-color: #8cdffc;
+	padding: 0.5rem;
+}
+
+h2{
+	font-family: Georgia;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+/* Page content */
+.contentbox {
+	font-family: 'Architects Daughter';
+	background-color: #cccccc;
+	max-width: 1000px;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid;
+    padding: 15px;
+}
+
+/* Nav */
+nav {
+	background-color: #3c687c;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+	margin: 0 auto;
+	font-family: Georgia;
+	font-size: 30px;
+
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+
+.navigation a {
+	display: block;
+	color: #fff;
+	font-family: Georgia;
+	text-align: left;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+	background: linear-gradient(90deg, transparent, #eebc43, transparent) top / var(--d, 0) 10px no-repeat;
+    transition: 0.5s;
+}
+/* Hover */
+nav a:hover {
+	text-decoration: underline;
+	text-decoration-color: #eebc43;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.active {
+    background-color: #264653;
+    color: #fff;
+}
+
+.active a {
+	text-decoration: underline;
+	text-decoration-color: #eebc43;
+}
+
+.responsive li {
+	display: block;
+}
+
+p {
+	font-family: 'Architects Daughter';
+	margin-left: 3px;
+	font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: #8cdffc;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    font-size: 15px;
+}
+
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+/* Hero Banner */
+.contentbox.hero{
+	position: relative;
+	background-color: transparent;
+	border: none;
+}
+
+.contentbox.hero img{
+	display: flex;
+    width: 100%;
+    margin: 0 auto;
+	height: 265px;
+}
+
+/* Hero Text */
+/* #mediumText, #largeText{
+	display: none;
+}
+
+#smallText{
+	display: block;
+	position: absolute;
+	top: 25px;
+	left: 90px;
+	float: right;
+	color: red;
+	margin-right: 25px;
+	margin-top: 25px;
+	font-size: 25px;
+} */
+
+/* Stats */
+.contentbox.hero .stats {
+	position: absolute;
+	top: 25px;
+    right: 50px;
+	background: radial-gradient(#eee, #3c687c);
+	border: 1px solid #000;
+	padding: 0.2rem;
+	padding-bottom: 0;
+	box-shadow: 0 0 30px #333;
+	opacity: .9;
+}
+
+.contentbox.hero .stats h2 {
+	padding-bottom: 0;
+	margin: 0;
+}
+
+.contentbox.hero .stats hr {
+	border: 1px solid black;
+}
+
+.contentbox.hero .stats p {
+	text-align: center;
+	margin: 5px;
+}
+
+/* Forecast Table */
+.contentbox.forecast {
+	display: none;
+}
+
+/* Article */
+.contentbox.article {
+	background: radial-gradient(rgb(238, 238, 238), #eebc43);
+	display: flex;
+	flex-direction: column;
+}
+
+.contentbox.article h2 {
+	text-align: left;
+}
+
+.contentbox.article h3 {
+	padding-left: 0.5rem;
+	color: #3c687c;
+	font-style: italic;
+}
+
+.contentbox.article img {
+	max-width: 400px;
+    margin: 10px;
+	box-shadow: 0 0 30px #333;
+	display: block;
+}
+
+.contentbox.article p {
+	text-align: justify;
+	font-size: 20px;
+}
+
+/* Contact Section */
+.contentbox.contact {
+	background: radial-gradient(rgb(238, 238, 238), #3c747c);
+	height: 390px;
+}
+
+.contentbox.contact .map {
+	display: none;
+}
+
+.contentbox.contact .info {
+    display: flex;
+    padding: 25px;
+    margin: 55px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contentbox.contact .info img{
+	max-width: 30px;
+}
+
+.contentbox.contact .social {
+	display: block;
+}
+
+/* Gallery */
+
+.captions {
+    text-align: center;
+    font-family: 'Architects Daughter';
+    padding: 8px;
+  }
+
+.container {
+    margin: 1rem auto; 
+    display:grid; 
+    grid-template-columns: 1fr; 
+    max-width: 1048px;
+    align-items: center;
+}
+
+.container figure{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container img { 
+    width: 250px; 
+    height: 146px; 
+    margin: .5rem;
+}
+
+.container img[data-src] {
+    filter: blur(0.2em);
+}
+
+.container img {
+    border: 1px solid #333;
+    padding: 2px;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+/* Storm Center */
+
+form fieldset {
+    margin: 1rem;
+    border: 1px solid #3c747c;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #a0e3fc33;
+}
+
+form legend {
+    color:black;
+    font-family:'Architects Daughter';
+    margin: 5px;
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+form label.personal, form label.report, form div {
+    display: block;
+    color: black;
+    font-family: 'Architects Daughter';
+    padding-top: 20px;
+}
+
+form label.personal input, form label.personal select, form label.report input, form label.report select {
+    display: block;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    width: 100%;
+    max-width: 250px;
+    background-color: rgba(65, 65, 65, 0.1);
+    margin: 5px;
+}
+
+.flexly {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family: 'Architects Daughter';
+    padding-top: 15px;
+}
+
+#ratingvalue {
+    margin: 0 15px;
+    color:black;
+}
+
+form textarea{
+    font-family: 'Architects Daughter';
+    font-size: small;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+form input.submitButton {
+    font-family: 'Architects Daughter';
+    border: none;
+    background-color: #3c747c;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 25px;
+    margin-bottom: 10px;
+    width: 300px;
+    max-width: 300px;
+}
+
+form label.personal input:required{
+    border: red solid 1px;
+}
+
+form label.personal input:required:valid{
+    border: green solid 1px;
+}
+
+.response {
+    text-align: center;
+}
+
+.thanks {
+    padding-bottom: 350px;
+}
+
+.comments {
+	display: inline-grid;
+	font-family: 'Architects Daughter';
+}
+
+.comments textarea {
+	margin-top: 5px;
+}
