@@ -177,4 +177,11 @@
     .container figure:hover { 
         box-shadow: 0 0 40px #333;
     }
+
+    /* Homepage Content */
+    div.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    }
 }

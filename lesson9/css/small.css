@@ -401,3 +401,41 @@ form label.personal input:required:valid{
 .comments textarea {
 	margin-top: 5px;
 }
+
+/* HomePage Cards */
+
+div.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Dancing Script', sans-serif;
+    box-shadow: 10px 10px 18px rgba(20, 20, 20, 0.3);
+    border: 1px solid rgba(0 , 0, 0, 0.2);
+    
+}
+
+div.cards section {
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0 , 0, 0, 0.2);
+    border-radius: 2px;
+    background-color: #b9b9cc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 1rem auto;
+}
+
+div.cards h2 {
+    text-align: center;
+    padding: .5rem;
+}
+
+div.cards p {
+    text-align: center;
+    padding: .2rem;
+}
+
+div.cards img {
+    margin: 1rem 0;
+}
