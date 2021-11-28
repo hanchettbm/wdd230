@@ -424,7 +424,7 @@ div.cards section {
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(0 , 0, 0, 0.2);
     border-radius: 2px;
-    background-color: #b9b9cc;
+    background: radial-gradient(rgb(238, 238, 238), #AFE0CE);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -445,4 +445,9 @@ div.cards p {
 
 div.cards img {
     margin: 1rem 0;
+}
+
+section img{
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
