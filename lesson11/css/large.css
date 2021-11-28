@@ -137,6 +137,13 @@
         font-size: 20px;
     }
 
+    /* Storm Center Form  */
+    form label.personal, form label.report, form div {
+		display: inline-flex;
+		padding-right: 30px;
+		flex-wrap: wrap;
+	}
+
     /* Contact Section */
     .contentbox.contact {
         background: radial-gradient(rgb(238, 238, 238), #3c747c);

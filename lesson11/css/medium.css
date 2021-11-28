@@ -145,6 +145,19 @@
 		font-size: 20px;
 	}
 
+	/* Form */
+
+	form label.personal, form label.report, form div {
+		display: block;
+	}
+	form label.personal input, form label.personal select, form label.report input, form label.report select {
+		width: 110%;
+	}
+
+	div.danger {
+		display: block;
+	}
+
 	/* Contact Section */
 	.contentbox.contact {
 		background: radial-gradient(rgb(238, 238, 238), #3c747c);

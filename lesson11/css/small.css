@@ -327,6 +327,8 @@ form label.personal, form label.report, form div {
     color: black;
     font-family: 'Architects Daughter';
     padding-top: 20px;
+    padding-right: 30px;
+    flex-wrap: wrap;
 }
 
 form label.personal input, form label.personal select, form label.report input, form label.report select {
@@ -334,10 +336,15 @@ form label.personal input, form label.personal select, form label.report input, 
     border-radius: 5px;
     padding: 10px;
     color: black;
-    width: 100%;
+    width: 80%;
     max-width: 250px;
     background-color: rgba(65, 65, 65, 0.1);
-    margin: 5px;
+    margin: 8px;
+    margin-left: 0px;
+}
+
+div.danger {
+    display: flex;
 }
 
 .flexly {
