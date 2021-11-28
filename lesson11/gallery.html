@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather 4 You</title>
+    <meta name="description" content="Weather Gallery Page for site" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script defer src="js/fonts.js"></script>
+    <script defer src="js/dates.js"></script>
+    <script defer src="js/navigation.js"></script>
+    <script defer src="js/lazyload.js"></script>
+    <script defer src="js/visits.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/weatherlogo.jpeg" alt="Weather Logo">
+        <section class="headings">
+            <h1>Weather 4 You</h1>
+            <p>Bringing smalltown weather to your fingertips.</p>   
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" class="ham"> &#9776; Menu</a></li>
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <figure>
+                <img src="images/placeholder.png" data-src="images/clouds.jpg" alt="cloudsImg">
+                <figcaption class="captions">Clouds In The Sky</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.png" data-src="images/greenDay.jpg" alt="fieldImg">
+                <figcaption class="captions">Partly Cloudy Field</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.png" data-src="images/lightning.jpg" alt="sunsetImg">
+                <figcaption class="captions">Lightning Strike At Sunset</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.png" data-src="images/mountain.jpg" alt="mountainImg">
+                <figcaption class="captions">Rainbow On Snowcapped Mountains</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.png" data-src="images/ocean.jpg" alt="oceanImg">
+                <figcaption class="captions">Ocean Waves</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.png" data-src="images/rainbow.jpg" alt="rainbowImg">
+                <figcaption class="captions">Rainbow Over City</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.png" data-src="images/reflect.jpg" alt="reflectImg">
+                <figcaption class="captions">Clouds Reflecting on Water</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.png" data-src="images/snow.jpg" alt="snowImg">
+                <figcaption class="captions">Snowcapped Trees</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.png" data-src="images/sunshine.jpg" alt="sunshineImg">
+                <figcaption class="captions">Sunset On The Water</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <div>&copy; Weather 4 You | Attributions | Baden Hanchett</div>
+        <div class="date"><span id="currentDate"></span></div>
+        <div class="visits">Days between Visits: <span id="count"></span></div>
+    </footer>
+</body>
+</html>

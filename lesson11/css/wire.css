@@ -1,0 +1,11 @@
+img {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+}
+
+h2 {
+    background-color: rgb(49, 128, 117);
+    color: white;
+}
