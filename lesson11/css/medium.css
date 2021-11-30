@@ -41,6 +41,7 @@
 	.contentbox.hero img{
 		max-width: 1000px;
 		height: 100%;
+		width: 100%;
 	}
 
 	/* Hero Text */
@@ -65,11 +66,7 @@
 		display: block;
 		top: 45px;
 		right: 400px;
-		background: radial-gradient(#eee, #3c687c);
-		border: 1px solid #000;
 		padding: 0.9rem;
-		box-shadow: 0 0 30px #333;
-		opacity: .9;
 	}
 
 	.contentbox.hero .stats h2 {

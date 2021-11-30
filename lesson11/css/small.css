@@ -155,9 +155,13 @@ footer {
 
 .contentbox.hero img{
 	display: flex;
-    width: 100%;
     margin: 0 auto;
 	height: 265px;
+    width: 100%;
+}
+
+.contentbox.hero.home img{
+    width: 100%;
 }
 
 /* Hero Text */
