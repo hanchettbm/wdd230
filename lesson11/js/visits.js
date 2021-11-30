@@ -19,7 +19,7 @@ const calculateDays = () => {
   let today = localStorage.getItem('currentDate');
   let difference = today - previousDay;
 
-  numDays = difference / (8640000);
+  numDays = difference / (1000 * 3600 * 24);
   numDays = Math.round(numDays);
   return numDays
 }
