@@ -7,6 +7,12 @@ fetch(apiURL)
         let description = jsObject.weather[0].description;
         let speed = Math.round(jsObject.wind.speed);
 
+        if ((convertedTemp <= 50) && (speed > 3)){
+        var f = Math.round(35.74 + (0.6215 * convertedTemp) - (35.75 * (speed **0.16)) + (0.4275 * convertedTemp * (speed **0.16))) + "°F";
+        } else {
+        var f = "N/A";
+        }
+
         document.querySelector('#description').innerHTML = `Currently: ${description}`;
 
         document.querySelector('#current-temp').innerHTML = `Current Temperature: ${convertedTemp}&#8457;`;
@@ -18,6 +24,8 @@ fetch(apiURL)
         document.querySelector('#humidity').innerHTML = `Humidity: ${jsObject.main.humidity}%`
 
         document.querySelector('#speed').innerHTML = `Wind Speed: ${speed} mph`;
+
+        document.querySelector("#chill").textContent = f;
 
     });
     //Fetch forecast url
