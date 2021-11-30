@@ -384,6 +384,10 @@ form input.submitButton {
     max-width: 300px;
 }
 
+form input.submitButton:hover {
+    background-color: #264653;
+}
+
 form label.personal input:required{
     border: red solid 1px;
 }
@@ -496,4 +500,6 @@ div.town-events.locations .events-content{
 
 div.town-events.locations .events-content section{
     width: 95%;
+    background: radial-gradient(rgb(238, 238, 238), #89afbf);
+    border-radius: 3px;
 }
