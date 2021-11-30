@@ -11,6 +11,8 @@ fetch(requestURL)
     towns.splice(2, 3);
     for(let i = 0; i < towns.length; i++){
         let card = document.createElement("section");
+        var text = document.createElement("div");
+        text.setAttribute('class', 'sectionText');
         let townName = document.createElement("h2");
         let motto = document.createElement("h3");
         let yearFounded = document.createElement("p");
@@ -27,12 +29,19 @@ fetch(requestURL)
         photo.setAttribute("src", "images/" + towns[i].photo);
         photo.setAttribute("alt", towns[i].name);
 
+        card.appendChild(text);
         card.appendChild(townName);
         card.appendChild(motto);
         card.appendChild(yearFounded);
         card.appendChild(currentPopulation);
         card.appendChild(averageRainfall);
         card.appendChild(photo);
+
+        text.appendChild(townName);
+        text.appendChild(motto);
+        text.appendChild(yearFounded);
+        text.appendChild(currentPopulation);
+        text.appendChild(averageRainfall);
 
         document.querySelector("div.cards").appendChild(card);
     }
