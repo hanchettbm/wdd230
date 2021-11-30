@@ -458,3 +458,42 @@ section img{
 .contentbox.article.home {
     background: radial-gradient(rgb(238, 238, 238), #89afbf);
 }
+
+/* Weekly Forecast images */
+img.weekly-image {
+    max-width: 50px;
+}
+
+/* Home Events Section */
+div.town-events .events-content{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+div.town-events .events-content section{
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0 , 0, 0, 0.2);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 1rem auto;
+    background: radial-gradient(rgb(238, 238, 238), #eebc43);
+}
+
+div.town-events .events-content h2 h3 p {
+    text-align: center;
+}
+
+div.town-events h3 {
+    text-decoration: underline;
+}
+
+div.town-events.locations .events-content{
+    grid-template-columns: 1fr;
+}
+
+div.town-events.locations .events-content section{
+    width: 100%;
+}

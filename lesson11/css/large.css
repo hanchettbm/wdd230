@@ -237,4 +237,45 @@
     section img{
         width: 90%;
     }
+
+    /* Home Events */
+    div.town-events .events-content{
+        display: grid;
+        margin: auto;
+        width: 55%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 35px;
+    }
+
+    div.town-events .events-content section{
+        max-width: 400px;
+    }
+
+    @media only screen and (max-width: 1669px){
+        div.town-events .events-content {
+            width: 65%;
+        }
+    }
+
+    @media only screen and (max-width: 1508px){
+        div.town-events .events-content {
+            width: 75%;
+        }
+    }
+    
+    @media only screen and (max-width: 1269px){
+        div.town-events .events-content {
+            width: 85%;
+        }
+    }
+
+    @media only screen and (max-width: 1060px){
+        div.town-events .events-content {
+            width: 100%;
+        }
+    }
+
+    div.town-events.locations .events-content section{
+        width: 100%;
+    }
 }
