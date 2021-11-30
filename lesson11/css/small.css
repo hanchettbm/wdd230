@@ -349,6 +349,7 @@ form label.personal input, form label.personal select, form label.report input, 
 
 div.danger {
     display: flex;
+    line-height: 20px;
 }
 
 .flexly {
