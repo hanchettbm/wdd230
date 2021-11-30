@@ -375,6 +375,7 @@ form textarea{
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 0px;
 }
 
 form input.submitButton {
