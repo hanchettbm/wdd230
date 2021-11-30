@@ -251,9 +251,18 @@
         max-width: 400px;
     }
 
+    div.town-events.locations .events-content section{
+        max-width: 52%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
     @media only screen and (max-width: 1669px){
         div.town-events .events-content {
             width: 65%;
+        }
+        div.town-events.locations .events-content section{
+            width: 85%;
         }
     }
 
@@ -261,10 +270,17 @@
         div.town-events .events-content {
             width: 75%;
         }
+
+        div.town-events.locations .events-content section{
+            width: 85%;
+        }
     }
     
     @media only screen and (max-width: 1269px){
         div.town-events .events-content {
+            width: 85%;
+        }
+        div.town-events.locations .events-content section{
             width: 85%;
         }
     }
@@ -273,9 +289,9 @@
         div.town-events .events-content {
             width: 100%;
         }
-    }
-
-    div.town-events.locations .events-content section{
-        width: 100%;
+        
+        div.town-events.locations .events-content section{
+            width: 85%;
+        }
     }
 }

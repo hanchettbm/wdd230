@@ -11,7 +11,6 @@ fetch(infoURL)
       if (town.name == "Preston") {
       
         let section = document.createElement("section");
-        let h3 = document.createElement("h3");
         let divEvent = document.createElement("div");
         let events = town.events;
         let allEvents = document.createElement("div");
@@ -20,8 +19,6 @@ fetch(infoURL)
         section.setAttribute("class", "town-event");
         divEvent.setAttribute("class", "events");
 
-        h3.textContent = town.name;
-
         events.forEach((event) => {
           let eventText = document.createElement("p");
           eventText.textContent = event;
@@ -29,9 +26,8 @@ fetch(infoURL)
         });
 
         allEvents.setAttribute("class", "events-name");
-        h3.setAttribute("class","h3-title");
         divEvent.append(allEvents);
-        section.append(h3, divEvent);
+        section.append(divEvent);
         document.querySelector("div.events-content").append(section);
       }
     });
